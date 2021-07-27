@@ -1,3 +1,5 @@
+
+
 div header {
     margin: 10px;
     text-align: center;
@@ -34,10 +36,11 @@ div header {
     margin-bottom: 110px;
   }
   
-  @media (max-width: 400px)
-    #header {
+  @media (max-width: 400px) {
+    header {
       max-width: 350px;
     }
+}
   
   .diagram-list {
     display: flex;
