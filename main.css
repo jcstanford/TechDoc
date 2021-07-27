@@ -1,0 +1,44 @@
+div header {
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: green;
+  }
+  
+  #main-doc header {
+    text-align: left;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  #navbar {
+    display: block;
+    height: 100%;
+    width: 300px;
+    line-height: 50px;
+    position: fixed;
+    border: solid;
+    overflow-y: auto;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    border-top: solid;
+    text-decoration: none;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  @media (max-width: 400px)
+    #header {
+      max-width: 350px;
+    }
+  
+  .diagram-list {
+    display: flex;
+  }
